@@ -1,0 +1,22 @@
+{
+  "name": "bitbucket2s3-integration",
+  "version": "1.0.0",
+  "description": "Lambda Function which integrate Bitbucket repo and branch to S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/AlfaCon/bitbucket2s3-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/AlfaCon/bitbucket2s3-integration#readme",
+  "dependencies": {
+    "archiver": "^2.0.3",
+    "aws-sdk": "^2.123.0",
+    "decompress": "^4.2.0",
+    "shelljs": "^0.7.8"
+  }
+}

@@ -1,0 +1,5 @@
+{
+	"user" : "hur", //User without domain name of e-mail
+	"password": "durhur", //Password
+	"branches": ["master","develop","staging","alpha"] //Branch names that will integrate to S3
+}
