@@ -14,7 +14,7 @@ var archiver = require('archiver');
 var shell = require('shelljs');
 var bitbucketEvent = null;
 
-exports.handler = function(event, context,callback) {
+exports.handler = (event, context, callback) => {
     console.log("Function started!");
     bitbucketEvent = event;
     bitbucketEvent.fileLocation = "/tmp/"+(bitbucketEvent.repoName).toLowerCase()+".zip";
