@@ -48,7 +48,6 @@ const bitbucket = function(){
 
         var curl = "curl --silent -L "+curlURL+" > "+bitbucketEvent.fileLocation;
         console.log("Downloading file from Bitbucket.org...");
-        console.log(curl);
         if (shell.exec(curl).code !== 0) {
             reject({'success' : false,'message' : "Can't Download File!"});
         } else {
